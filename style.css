@@ -108,6 +108,15 @@
   cursor: pointer;
 }
 
+input:hover {
+  border: 2px solid rgb(0, 104, 231);
+}
+
+input[type=password] {
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
 .login {
   margin-top: 10px;
 }
