@@ -1,0 +1,72 @@
+:root {
+  --color: #e6007e;
+  --txt: rgb(185, 185, 185);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-, -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  color: var(--txt);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.picture {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 38vw;
+}
+
+.content {
+  width: 62vw;
+  background-color: rgb(236, 236, 236);
+}
+
+.headline,
+.sign-up,
+.submit,
+.login {
+  color: black;
+  padding-left: 40px;
+}
+
+.headline {
+  font-size: 30px;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+.sign-up {
+  height: 40vh;
+  background-color: white;
+}
+
+.submit {
+  height: 10vh;
+  margin-top: 30px;
+}
+
+.submit button {
+  color: white;
+  font-size: 25px;
+  background-color: rgb(1, 91, 71);
+  border-radius: 12px;
+  border: rgb(1, 91, 71);
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.clickable {
+  color:rgb(1, 91, 71);
+  font-weight: 700;
+  cursor: pointer;
+}
