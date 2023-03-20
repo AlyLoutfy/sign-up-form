@@ -1,6 +1,5 @@
 :root {
-  --color: #e6007e;
-  --txt: rgb(185, 185, 185);
+  --color: #274b46;
 }
 
 * {
@@ -8,7 +7,6 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: system-, -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
-  color: var(--txt);
 }
 
 .container {
@@ -31,8 +29,6 @@
 }
 
 .headline,
-.sign-up,
-.submit,
 .login {
   color: black;
   padding-left: 40px;
@@ -40,33 +36,56 @@
 
 .headline {
   font-size: 30px;
+  font-weight: 700;
   height: 30vh;
   display: flex;
   align-items: center;
 }
 
-.sign-up {
-  height: 40vh;
+.fillable-area {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 36px;
+  padding: 40px;
   background-color: white;
 }
 
+.sign-up label {
+  text-transform: uppercase;
+}
+
+.input-box input {
+  width: 300px;
+  height: 27px;
+  padding-left: 10px;
+}
+
+.sign-up .input-box {
+  width: 300px;
+}
+
 .submit {
-  height: 10vh;
+  padding-left: 40px;
   margin-top: 30px;
 }
 
-.submit button {
+.submit input {
   color: white;
-  font-size: 25px;
-  background-color: rgb(1, 91, 71);
-  border-radius: 12px;
-  border: rgb(1, 91, 71);
-  padding: 15px 25px;
+  font-size: 19px;
+  background-color: var(--color);
+  border-radius: 9px;
+  border: var(--color);
+  padding: 12px 30px;
   cursor: pointer;
 }
 
+.login {
+  margin-top: 10px;
+}
+
 .clickable {
-  color:rgb(1, 91, 71);
+  color: var(--color);
   font-weight: 700;
   cursor: pointer;
 }
