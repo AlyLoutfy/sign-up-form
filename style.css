@@ -2,11 +2,16 @@
   --color: #274b46;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: system-, -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
 }
 
 .container {
@@ -16,7 +21,7 @@
 }
 
 .picture {
-  background-image: url(./background.jpg);
+  background-image: url(./images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
